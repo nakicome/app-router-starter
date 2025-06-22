@@ -1,6 +1,12 @@
 import { ReactNode } from 'react'
+import { redirect } from "next/navigation";
 
 export default function PrivateLayout({ children }: { children: ReactNode }) {
+
+    const isAuthorized = false;
+    if (!isAuthorized) {
+        redirect('/');
+    }
 
     return (
         <>
