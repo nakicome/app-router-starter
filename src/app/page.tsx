@@ -5,7 +5,7 @@ export default function Page() {
     <div>
       <h1>Top Page</h1>
       <div>
-        <Link href='/link'>Go to link</Link>
+        <Link href='/mypage'>Go to mypage</Link>
       </div>
     </div>
   );
